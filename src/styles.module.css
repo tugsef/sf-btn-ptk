@@ -1,0 +1,140 @@
+/* add css module styles here (optional) */
+
+.primary_small:hover,
+.primary_large:hover,
+.primary_medium:hover {
+  background-color: #95D1CC;
+  color: #22577E;
+}
+
+.primary_small,
+.primary_medium,
+.primary_large {
+  border: none;
+  background-color: #22577E;
+  color: #95D1CC;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(85, 10, 10, 0.19);
+  margin: 5px;
+}
+
+.primary_small,
+.default_small,
+.dashed_small,
+.text_small {
+  min-width: 60px;
+  min-height: 25px;
+  border-radius: 10px;
+  font-size: small;
+
+}
+
+
+.primary_small:active,
+.primary_medium:active,
+.primary_large:active {
+
+  background-color: #22577E;
+  color: #95D1CC;
+}
+
+.primary_medium,
+.default_medium,
+.dashed_medium,
+.text_medium {
+  width: 90px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: large;
+  color: #95D1CC;
+}
+
+button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.default_small,
+.default_medium,
+.default_large {
+  border: 3px solid #22577E;
+  color: #22577E;
+  background-color: white;
+  margin: 5px;
+}
+
+.default_small:active,
+.default_medium:active,
+.default_large:active {
+  background-color: #22577E;
+  color: white;
+}
+
+.dashed_small,
+.dashed_medium,
+.dashed_large {
+  border: 3px dashed #22577E;
+  color: #22577E;
+  background-color: white;
+  margin: 5px;
+}
+
+.dashed_small:active,
+.dashed_medium:active,
+.dashed_large:active {
+  border: 3px solid #22577E;
+}
+
+.primary_large,
+.default_large,
+.dashed_large,
+.text_large {
+  min-width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: x-large;
+  padding-bottom: 6px;
+}
+
+.text_small,
+.text_medium,
+.text_large {
+  background-color: inherit;
+  border: none;
+  color: #22577E;
+  margin: 5px;
+
+}
+
+.text_small:hover,
+.text_medium:hover,
+.text_large:hover {
+  background-color: #95D1CC;
+}
+
+.link_small,
+.link_medium,
+.link_large {
+  background-color: inherit;
+  border: none;
+  color: blue;
+  margin: 5px;
+}
+
+.link_small {
+  font-size: small;
+}
+
+.link_medium {
+  font-size: medium;
+}
+
+.link_large {
+  font-size: large;
+}
+
+.link_small:active,
+.link_medium:active,
+.link_large:active {
+  color: grey;
+}
